@@ -36,7 +36,7 @@ Creating network "vueclidockercompose_default" with the default driver
 
   This will install Vue 2.x version of the template.
 
-  For Vue 1.x use: vue init webpack-simple#1.0 vue-django-channels
+  For Vue 1.x use: vue init webpack-simple#1.0 <project_name>
 
 /bin/sh: 1: git: not found
 ? Project name <project_name>
