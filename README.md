@@ -2,7 +2,7 @@
 A simple docker compose file to create a new vue-cli project on a host without a node installation (windows in my case)
 
 ## Simple
-Using ebiven/docker-vue-cli this is a simple docker-compose file that mounts the PWD as the location where the new 
+Using [ebiven/docker-vue-cli](https://github.com/ebiven/docker-vue-cli) this is a simple docker-compose file that mounts the PWD as the location where the new 
 vue-cli generated project will be located. It is intended to be run with `docker-compose run ...`.  
 
 If you want the new project to be generated at a different location change `docker-compose.yml` to mount the desired 
